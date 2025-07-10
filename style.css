@@ -36,7 +36,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background: red; */
     padding: 25px 110px;
 }
 .logo{
@@ -45,7 +44,6 @@ body{
     font-weight: 900;
 }
 .hero{
-    /* background: red; */
     width: 100%;
     height: 480px;
     display: flex;
@@ -57,7 +55,6 @@ body{
 .hero h1{
     font-size: 65px;
     font-weight: bold;
-    font-family: raleway;
     width: 70%;
     text-align: center;
 }
@@ -66,9 +63,7 @@ body{
 
 .action-section{
     padding: 110px;
-    /* background: red; */
 }
-
 .action-part1{
     display: flex;
     align-items: center;
@@ -76,30 +71,44 @@ body{
 }
 .action-part1 div{
     width: 42%;
-    /* background: yellow; */
 }
 .action-part1 h4{
     font-size: 42px;
-    font-family: raleway;
 }
 .action-part1 p{
     margin: 10px 0;
     font-size: 24px;
     color: rgb(119, 118, 118);
-    font-family: raleway;
 }
 .action-part1 img{
     width: 403px;
     height: 328px;
     border-radius: 48px;
 }
-
-
-
-
 .action-part2{
-    background: green;
+    background: #E5E7FF;
     width: 100%;
-    height: 30vh;
-
+    height: 206px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.action-part2 h3{
+    font-size: 38px;
+    font-weight: bold;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+.number-item h2{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.number-item p{
+    color: #0808088f;
 }
