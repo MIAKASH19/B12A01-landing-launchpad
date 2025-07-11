@@ -25,6 +25,13 @@ body{
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid #4E47FF;
+    color: #4E47FF;
+    transition: all .1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 h3{
     font-size: 34px;
@@ -170,6 +177,7 @@ p{
 }
 
 /* Focus Section */
+
 .focus-Section{
     margin: 0 110px;
     background: white;
@@ -183,3 +191,37 @@ p{
     border-radius: 50px;
     margin-top: 30px;
 }
+
+/* Get In Touch Section */
+
+.get-in-touch-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px;
+}
+.get-in-touch-section h1{
+    font-size: 90px;
+    width: 50%;
+}
+.get-in-touch-section form{
+    width: 40%;
+}
+.get-in-touch-section input, textarea{
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    width: 88%;
+    border: 1px solid rgba(212, 212, 212, 0.671);
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: white;
+}
+.get-in-touch-section input{
+    height: 40px;
+}
+button[type= "submit"]{
+    width: 100%;
+    margin-top: 10px;
+}
+
