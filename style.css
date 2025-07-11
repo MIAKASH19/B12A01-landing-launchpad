@@ -23,6 +23,17 @@ body{
     border: none;
     color: white;
     border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+h3{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+p{
+    margin: 20px 0;
+    color: #0808088f;
 }
 
 /* Hero Section Styles */
@@ -93,9 +104,9 @@ body{
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
-.action-part2 h3{
+.action-part2 h4{
     font-size: 34px;
     font-weight: bold;
 }
@@ -110,9 +121,7 @@ body{
     font-size: 80px;
     color: #4E47FF;
 }
-.number-item p{
-    color: #0808088f;
-}
+
 
 /* Users Feedback Section */
 
@@ -121,10 +130,7 @@ body{
     margin: 0 110px;
     height: 400px ;
 }
-.user-feedback-section h3{
-    font-size: 34px;
-    padding: 20px 0 50px 0;
-}
+
 .users{
     text-align: left;
     display: flex;
@@ -161,4 +167,19 @@ body{
 .user-image h2{
     font-size: 20px;
     color: #02020283;
+}
+
+/* Focus Section */
+.focus-Section{
+    margin: 0 110px;
+    background: white;
+    padding: 80px;
+    text-align: center;
+}
+.focus-Section h5{
+    font-size: 50px;
+}
+.focus-Section img{
+    border-radius: 50px;
+    margin-top: 30px;
 }
