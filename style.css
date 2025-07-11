@@ -13,6 +13,7 @@
 }
 body{
     overflow-x: hidden;
+    background-color: #F5F8FF;
 }
 
 /* Shared Styles */
@@ -95,14 +96,14 @@ body{
     margin-top: 50px;
 }
 .action-part2 h3{
-    font-size: 38px;
+    font-size: 34px;
     font-weight: bold;
 }
 .numbers{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 150px;
     margin-top: 20px;
 }
 .number-item h2{
@@ -111,4 +112,53 @@ body{
 }
 .number-item p{
     color: #0808088f;
+}
+
+/* Users Feedback Section */
+
+.user-feedback-section{
+    text-align: center;
+    margin: 0 110px;
+    height: 400px ;
+}
+.user-feedback-section h3{
+    font-size: 34px;
+    padding: 20px 0 50px 0;
+}
+.users{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.user-item{
+    background: white;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.user-item h5{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.user-item p{
+    font-size: 16px;
+    margin-top: 5px;
+    color: #0000008f;
+}
+.user-image{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    margin: 5% 0;
+}
+.user-image img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-image h2{
+    font-size: 20px;
+    color: #02020283;
 }
